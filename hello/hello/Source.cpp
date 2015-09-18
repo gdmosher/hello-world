@@ -13,7 +13,7 @@ long long fib(int n) {
 	return fib(n - 1) + fib(n - 2);
 }
 int main() {
-	int n = 30;
+	int n = 6;
 //	int n = 45;	// max
 	clock_t start;
 	clock_t end;
@@ -24,7 +24,7 @@ int main() {
 
 
 	end = clock();
-	cout << (end - start / CLK_TCK);
+	cout << (end - start / CLK_TCK) << endl;
 
 	return 0;
 }
