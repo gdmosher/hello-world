@@ -7,6 +7,8 @@ using namespace std;
 long long fib(int n);
 
 long long fib(int n) {
+	long long n1 = 0xeeeeddddbbbbaaaa;
+	long long n2 = 0xeeeeddddbbbbaaaa;
 	if (n == 1 || n == 2)
 		return 1;
 
